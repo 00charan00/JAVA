@@ -1,3 +1,5 @@
+package com.charan.patterns;
+
 import java.util.Scanner;
 
 public class PatternOne {
