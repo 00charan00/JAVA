@@ -1,4 +1,4 @@
-package com.charan.patterns;
+package com.charan.Patterns;
 import java.util.Scanner;
 
 public class ErectTriangle {
