@@ -1,4 +1,4 @@
-package com.charan.SimplePrograms;
+package com.charan.Programs;
 
 import java.util.Scanner;
 

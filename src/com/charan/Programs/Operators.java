@@ -1,4 +1,4 @@
-package com.charan.SimplePrograms;
+package com.charan.Programs;
 
 public class Operators {
     public static void main(String[] args) {
