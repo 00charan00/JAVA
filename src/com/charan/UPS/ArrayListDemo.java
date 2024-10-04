@@ -17,6 +17,8 @@ public class ArrayListDemo {
         arr.set(0, sc.nextInt());
         System.out.println(arr);
         System.out.println(arr.get(0));
+        arr.removeAll(arr);
 
     }
+
 }
