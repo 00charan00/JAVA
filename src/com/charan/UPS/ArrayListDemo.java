@@ -1,6 +1,7 @@
 package com.charan.UPS;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class ArrayListDemo {
@@ -11,13 +12,19 @@ public class ArrayListDemo {
         arr.add(2);
         arr.add(3);
         arr.add(4);
-        int size=arr.size();
-        System.out.println("Size: "+size);
-        System.out.println(arr.contains(sc.nextInt()));
-        arr.set(0, sc.nextInt());
-        System.out.println(arr);
-        System.out.println(arr.get(0));
-        arr.removeAll(arr);
+
+        Iterator<Integer> itr= arr.iterator();
+
+        while (itr.hasNext()){
+            System.out.println(itr.next());
+        }
+//        int size=arr.size();
+//        System.out.println("Size: "+size);
+//        System.out.println(arr.contains(sc.nextInt()));
+//        arr.set(0, sc.nextInt());
+//        System.out.println(arr);
+//        System.out.println(arr.get(0));
+//        arr.removeAll(arr);
 
     }
 
