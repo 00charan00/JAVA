@@ -18,13 +18,13 @@ public class ArrayListDemo {
         while (itr.hasNext()){
             System.out.println(itr.next());
         }
-//        int size=arr.size();
-//        System.out.println("Size: "+size);
-//        System.out.println(arr.contains(sc.nextInt()));
-//        arr.set(0, sc.nextInt());
-//        System.out.println(arr);
-//        System.out.println(arr.get(0));
-//        arr.removeAll(arr);
+        int size=arr.size();
+        System.out.println("Size: "+size);
+        System.out.println(arr.contains(sc.nextInt()));
+        arr.set(0, sc.nextInt());
+        System.out.println(arr);
+        System.out.println(arr.get(0));
+        arr.removeAll(arr);
 
     }
 
