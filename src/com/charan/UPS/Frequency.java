@@ -16,8 +16,6 @@ public class Frequency {
                 mp.put(arr[i], 1);
             }
         }
-        for (Map.Entry<Integer, Integer> entry : mp.entrySet()) {
-            System.out.println(entry.getKey() + "--->" + entry.getValue());
-        }
+        System.out.println(mp);
     }
 }
