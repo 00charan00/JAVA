@@ -1,9 +1,9 @@
-package com.charan.UPS;
+package com.charan.UPS_Trainer_Programs;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class RemoveDuplicates {
+public class InterSectionOFTwoSet {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         ArrayList<Integer> arr=new ArrayList<>();
@@ -13,10 +13,13 @@ public class RemoveDuplicates {
         }
         ArrayList<Integer> arr2=new ArrayList<>();
         for(int i=0;i<size;i++){
-            if(!arr2.contains(arr.get(i))){
-                arr2.add(arr.get(i));
-            }
+            arr2.add(sc.nextInt());
         }
-        System.out.println(arr2);
+        for(int i=0;i<size;i++)
+            if(arr.contains(arr2.get(i))){
+                System.out.println(arr2.get(i));
+
+        }
     }
 }
+

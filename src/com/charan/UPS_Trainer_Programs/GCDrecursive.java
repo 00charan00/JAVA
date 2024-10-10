@@ -1,4 +1,4 @@
-package com.charan.UPS;
+package com.charan.UPS_Trainer_Programs;
 
 public class GCDrecursive {
     static int gcd(int a, int b)
